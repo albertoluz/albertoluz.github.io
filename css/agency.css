@@ -8,7 +8,7 @@ body {
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .text-muted {
-  color: #F0FFFF;
+  color: black;
 }
 .text-primary {
   color: #fed136;
@@ -28,7 +28,7 @@ a.active {
   outline: none;
 }
 a {
-  color: #fed136;
+  color: grey;
 }
 a:hover,
 a:focus,
@@ -50,14 +50,14 @@ h6 {
   margin: 0 auto;
 }
 .bg-light-gray {
-  background-color: #000000;
+  background-color: black;
 }
 .bg-darkest-gray {
-  background-color: #000000;
+  background-color: grey;
 }
 .btn-primary {
   color: white;
-  background-color: #;
+  background-color: grey;
   border-color: #fed136;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
@@ -101,8 +101,8 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-xl {
   color: white;
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: black;
+  border-color: grey;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -115,7 +115,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-  color: white;
+  color: black;
   background-color: #fec503;
   border-color: #f6bf01;
 }
@@ -164,7 +164,7 @@ fieldset[disabled] .btn-xl.active {
   border-color: rgba(255, 255, 255, 0.02);
 }
 .navbar-custom .navbar-toggle {
-  background-color: #fed136;
+  background-color: grey;
   border-color: #fed136;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
@@ -173,7 +173,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #fed136;
+  background-color: grey;
 }
 .navbar-custom .nav li a {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -226,7 +226,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/alberto.jpg');
+  background-image: url('../img/dude.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -309,7 +309,7 @@ section h3.section-subheading {
 #portfolio .portfolio-item .portfolio-link {
   display: block;
   position: relative;
-  max-width: 400px;
+  max-width: 600px;
   margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
@@ -331,7 +331,7 @@ section h3.section-subheading {
   height: 20px;
   font-size: 20px;
   text-align: center;
-  top: 50%;
+  top: 70%;
   margin-top: -12px;
   color: white;
 }
@@ -356,7 +356,7 @@ section h3.section-subheading {
 #portfolio .portfolio-item .portfolio-caption p {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
-  font-size: 16px;
+  font-size: 26px;
   margin: 0;
 }
 #portfolio * {
@@ -733,7 +733,7 @@ ul.social-buttons li a:active {
 }
 ::selection {
   text-shadow: none;
-  background: #fed136;
+  background: grey;
 }
 img::selection {
   background: transparent;
@@ -743,4 +743,12 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #fed136;
+}
+
+
+#about {
+  background: grey;
+}
+#services {
+  background: grey;
 }

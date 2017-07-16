@@ -151,7 +151,7 @@ fieldset[disabled] .btn-xl.active {
   border-color: transparent;
 }
 .navbar-custom .navbar-brand {
-  color: #fed136;
+  color: white;
   font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
 }
 .navbar-custom .navbar-brand:hover,
@@ -362,26 +362,13 @@ section h3.section-subheading {
 #portfolio * {
   z-index: 2;
 }
-@media (min-width: 767px) {
-  #portfolio .portfolio-item {
-    margin: 0 0 30px;
-  }
-}
+
 .timeline {
   list-style: none;
   padding: 0;
   position: relative;
 }
-.timeline:before {
-  top: 0;
-  bottom: 0;
-  position: absolute;
-  content: "";
-  width: 2px;
-  background-color: #f1f1f1;
-  left: 40px;
-  margin-left: -1.5px;
-}
+
 .timeline > li {
   margin-bottom: 50px;
   position: relative;
@@ -414,21 +401,9 @@ section h3.section-subheading {
   left: -14px;
   right: auto;
 }
-.timeline > li .timeline-image {
-  left: 0;
-  margin-left: 0;
-  width: 80px;
-  height: 80px;
-  position: absolute;
-  z-index: 100;
-  background-color: #fed136;
-  color: white;
-  border-radius: 100%;
-  border: 7px solid #f1f1f1;
-  text-align: center;
-}
+
 .timeline > li .timeline-image h4 {
-  font-size: 10px;
+  font-size: 40px;
   margin-top: 12px;
   line-height: 14px;
 }
@@ -463,37 +438,49 @@ section h3.section-subheading {
 .timeline .timeline-body > ul {
   margin-bottom: 0;
 }
-@media (min-width: 768px) {
+
+
+
+
+
+
+@media (min-width: 968px) {
   .timeline:before {
-    left: 50%;
+    left: 70%;
   }
   .timeline > li {
     margin-bottom: 100px;
-    min-height: 100px;
+    min-height: 300px;
   }
   .timeline > li .timeline-panel {
-    width: 41%;
+    width: 40%;
     float: left;
-    padding: 0 20px 20px 30px;
+    padding: 0 10px 40px 50px;
     text-align: right;
   }
   .timeline > li .timeline-image {
     width: 100px;
     height: 100px;
-    left: 50%;
+    left: 0%;
     margin-left: -50px;
   }
   .timeline > li .timeline-image h4 {
-    font-size: 13px;
-    margin-top: 16px;
+    font-size: 53px;
+    margin-top: 46px;
     line-height: 18px;
   }
   .timeline > li.timeline-inverted > .timeline-panel {
     float: right;
     text-align: left;
-    padding: 0 30px 20px 20px;
+    padding: 0 80px 20px 20px;
   }
 }
+
+
+
+
+
+
 @media (min-width: 992px) {
   .timeline > li {
     min-height: 150px;
@@ -502,9 +489,9 @@ section h3.section-subheading {
     padding: 0 20px 20px;
   }
   .timeline > li .timeline-image {
-    width: 150px;
-    height: 150px;
-    margin-left: -75px;
+    width: 250px;
+    height: 70px;
+    margin-left: 450px;
   }
   .timeline > li .timeline-image h4 {
     font-size: 18px;
@@ -515,25 +502,7 @@ section h3.section-subheading {
     padding: 0 20px 20px;
   }
 }
-@media (min-width: 1200px) {
-  .timeline > li {
-    min-height: 170px;
-  }
-  .timeline > li .timeline-panel {
-    padding: 0 20px 20px 100px;
-  }
-  .timeline > li .timeline-image {
-    width: 170px;
-    height: 170px;
-    margin-left: -85px;
-  }
-  .timeline > li .timeline-image h4 {
-    margin-top: 40px;
-  }
-  .timeline > li.timeline-inverted > .timeline-panel {
-    padding: 0 100px 20px 20px;
-  }
-}
+
 .team-member {
   text-align: center;
   margin-bottom: 50px;
@@ -555,7 +524,7 @@ aside.clients img {
 }
 section#contact {
   background-color: #222222;
-  background-image: url('../img/map-image.png');
+  background-image: url('../img/');
   background-position: center;
   background-repeat: no-repeat;
 }

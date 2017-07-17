@@ -8,7 +8,7 @@ body {
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .text-muted {
-  color: black;
+  color: white;
 }
 .text-primary {
   color: #fed136;
@@ -100,7 +100,7 @@ fieldset[disabled] .btn-primary.active {
   background-color: white;
 }
 .btn-xl {
-  color: white;
+  color: blue;
   background-color: black;
   border-color: grey;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -110,7 +110,9 @@ fieldset[disabled] .btn-primary.active {
   font-size: 18px;
   padding: 20px 40px;
 }
-.btn-xl:hover,
+.btn-xl:hover {
+  background-color: white;
+}
 .btn-xl:focus,
 .btn-xl:active,
 .btn-xl.active,
@@ -151,17 +153,19 @@ fieldset[disabled] .btn-xl.active {
   border-color: transparent;
 }
 .navbar-custom .navbar-brand {
-  color: white;
+  color: blue;
   font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
 }
-.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:hover {
+  color: white;
+}
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
   color: #fec503;
 }
 .navbar-custom .navbar-collapse {
-  border-color: rgba(255, 255, 255, 0.02);
+  border-color: blue;
 }
 .navbar-custom .navbar-toggle {
   background-color: grey;
@@ -180,9 +184,11 @@ fieldset[disabled] .btn-xl.active {
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 1px;
+  color: blue;
+}
+.navbar-custom .nav li a:hover {
   color: white;
 }
-.navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
   color: #fed136;
   outline: none;
@@ -226,7 +232,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/dude.jpg');
+  background-image: url('../img/moon.jpeg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -235,7 +241,8 @@ header {
   background-size: cover;
   -o-background-size: cover;
   text-align: center;
-  color: white;
+  color: blue;
+  border-bottom: 5px solid blue;
 }
 header .intro-text {
   padding-top: 100px;
@@ -365,7 +372,7 @@ section h3.section-subheading {
 
 .timeline {
   list-style: none;
-  padding: 0;
+  padding: 2;
   position: relative;
 }
 
@@ -444,7 +451,7 @@ section h3.section-subheading {
 
 
 
-@media (min-width: 968px) {
+@media (min-width: 1168px) {
   .timeline:before {
     left: 70%;
   }
@@ -483,7 +490,7 @@ section h3.section-subheading {
 
 @media (min-width: 992px) {
   .timeline > li {
-    min-height: 150px;
+    min-height: 250px;
   }
   .timeline > li .timeline-panel {
     padding: 0 20px 20px;
@@ -509,7 +516,7 @@ section h3.section-subheading {
 }
 .team-member img {
   margin: 0 auto;
-  border: 7px solid white;
+  border: 5px solid white;
 }
 .team-member h4 {
   margin-top: 25px;
@@ -527,6 +534,10 @@ section#contact {
   background-image: url('../img/');
   background-position: center;
   background-repeat: no-repeat;
+}
+#contact {
+  border-bottom: 5px solid blue;
+  border-top: 5px solid blue;
 }
 section#contact .section-heading {
   color: white;
@@ -716,8 +727,16 @@ body {
 
 
 #about {
-  background: grey;
+  background: black;
+  border-bottom: 5px solid blue;
 }
 #services {
-  background: grey;
+  background: black;
+  border-bottom: 5px solid blue;
+}
+#portfolio {
+  border-bottom: 5px solid blue;
+}
+#team {
+  border-bottom: 5px solid blue;
 }

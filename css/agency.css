@@ -449,13 +449,13 @@ section h3.section-subheading {
     left: 70%;
   }
   .timeline > li {
-    margin-bottom: 100px;
-    min-height: 300px;
+    margin-bottom: 10px;
+    min-height: 200px;
   }
   .timeline > li .timeline-panel {
     width: 40%;
     float: left;
-    padding: 0 10px 40px 50px;
+    padding: 0 20px 40px 10px;
     text-align: right;
   }
   .timeline > li .timeline-image {
@@ -490,7 +490,7 @@ section h3.section-subheading {
   }
   .timeline > li .timeline-image {
     width: 250px;
-    height: 70px;
+    height: 10px;
     margin-left: 450px;
   }
   .timeline > li .timeline-image h4 {

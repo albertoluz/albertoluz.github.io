@@ -373,7 +373,7 @@ section h3.section-subheading {
 
 .timeline {
   list-style: none;
-  padding: 4;
+  padding: 5;
   position: relative;
 }
 
@@ -391,9 +391,10 @@ section h3.section-subheading {
   clear: both;
 }
 .timeline > li .timeline-panel {
+  color: blue;
   width: 100%;
   float: right;
-  padding: 0 20px 0 100px;
+  padding: 0 50px 0 100px;
   position: relative;
   text-align: left;
 }
@@ -405,9 +406,9 @@ section h3.section-subheading {
 }
 .timeline > li .timeline-panel:after {
   border-left-width: 0;
-  border-right-width: 14px;
-  left: -14px;
-  right: auto;
+  border-right-width: 34px;
+  left: -24px;
+  right: 80px;
 }
 
 .timeline > li .timeline-image h4 {
@@ -461,7 +462,7 @@ section h3.section-subheading {
     min-height: 300px;
   }
   .timeline > li .timeline-panel {
-    width: 40%;
+    width: 38%;
     float: left;
     padding: 0 40px 40px 10px;
     text-align: right;
@@ -499,11 +500,11 @@ section h3.section-subheading {
   .timeline > li .timeline-image {
     width: 250px;
     height: 10px;
-    margin-left: 450px;
+    margin-left: 425px;
   }
   .timeline > li .timeline-image h4 {
     font-size: 18px;
-    margin-top: 30px;
+    margin-top: 50px;
     line-height: 26px;
   }
   .timeline > li.timeline-inverted > .timeline-panel {

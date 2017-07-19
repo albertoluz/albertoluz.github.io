@@ -523,7 +523,7 @@ section h3.section-subheading {
   border: 5px solid blue;
 }
 .team-member h4 {
-  margin-top: 25px;
+  margin-top: 45px;
   margin-bottom: 0;
   text-transform: none;
 }
@@ -738,10 +738,19 @@ body {
 #services {
   background: black;
   border-bottom: 5px solid blue;
+
 }
+
 #portfolio {
   border-bottom: 5px solid blue;
 }
 #team {
   border-bottom: 5px solid blue;
+}
+.caption {
+    display: block;
+    color: blue;
+    font-size: 22px;
+    font-family: 'Nunito', 'Helvetica Neue', Arial, sans-serif;
+    list-style: none;
 }

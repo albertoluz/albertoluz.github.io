@@ -515,6 +515,8 @@ section h3.section-subheading {
 .team-member {
   text-align: center;
   margin-bottom: 50px;
+  position: relative;
+  border-bottom-right-radius: 100px;
 }
 .team-member img {
   margin: 0 auto;
